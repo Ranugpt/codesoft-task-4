@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.slide{
+    background-color: rgb(212, 202, 202);
+    padding: 1%;
+    border-radius: 50px;
+    font-size: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.big-box{
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 3%;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+}
+nav circle{
+    color: red;
+}
+.fixed-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    font-size: 30px;
+    /* background-position: fixed; */
+    background-color: black;
+}
+.fixed-side ul{
+    text-transform: uppercase;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.fixed-side li {
+    margin-bottom: 5px;
+}
+.fixed-side li a {
+    color: #f1e9e9; /* Adjust color as needed */
+}
+.move-side{
+    display: flex;
+    background-color: rgb(207, 195, 198);
+    width: 80%; 
+    height: 100%;
+    margin-left: 2%; 
+    padding: 5%;
+}
+.move-side .images{
+    display: flex;
+    width: 35%;
+    height: 30%;
+    position: relative;
+
+}
+.move-side img{
+    width: 33.33%;
+    height: auto;
+}
+.move-side h1{
+    display: flex;
+    padding: 1%;
+}
+
+.thread{
+    display: flex;
+    background-color: rgb(82, 74, 74);
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.thread .slide{
+    position: absolute;
+    display: flex;
+    background-color: rgb(63, 55, 55);
+    padding: 1%;
+    border-radius: 50px;
+    font-size: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
